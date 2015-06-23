@@ -52,51 +52,8 @@
                                     <field name="NUM">1</field>
                                   </block>
                                 </value>
-                                <next>
-                                  <block type="led_select" id="340" inline="true">
-                                    <field name="ACTION">FLASH</field>
-                                    <value name="LED">
-                                      <block type="math_number" id="374">
-                                        <field name="NUM">2</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="led_select" id="349" inline="true">
-                                        <field name="ACTION">FLASH</field>
-                                        <value name="LED">
-                                          <block type="math_number" id="381">
-                                            <field name="NUM">3</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="led_select" id="358" inline="true">
-                                            <field name="ACTION">FLASH</field>
-                                            <value name="LED">
-                                              <block type="math_number" id="388">
-                                                <field name="NUM">4</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="led_select" id="367" inline="true">
-                                                <field name="ACTION">FLASH</field>
-                                                <value name="LED">
-                                                  <block type="math_number" id="395">
-                                                    <field name="NUM">5</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
                               </block>
                             </statement>
-                            <next>
-                              <block type="movement_stop" id="415"></block>
-                            </next>
                           </block>
                         </next>
                       </block>
