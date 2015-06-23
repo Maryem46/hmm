@@ -54,6 +54,15 @@
                                 </value>
                               </block>
                             </statement>
+                            <next>
+                              <block type="robot_delay" id="433" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="440">
+                                    <field name="NUM">5551</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
